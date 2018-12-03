@@ -1,0 +1,51 @@
+.user-roll-icon{
+    position: relative;
+    /*width: 3px;*/
+    height: 1px;
+    margin: 3px;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;       
+}
+.icon-group{
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 10px;
+}
+.user-roll-icon img{
+    -webkit-filter: drop-shadow( -5px -5px 5px #000 );
+    filter: drop-shadow( 0px -3px 2px #000 );
+    width: 30px;
+    position: absolute;
+    left: -15px;
+    top: -30px;
+    height: 30px;
+}
+
+.user-roll-icon-inside{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+.user-roll-icon-inside img{
+    width: 50px;
+    margin: 10px auto;
+    -webkit-filter: drop-shadow( -5px -5px 5px #000 );
+    filter: drop-shadow( 0px -9px 6px #000 );
+}
+
+div.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.waiting-for-click{
+    transition: all 200ms ease-in;
+    transform: scale(1.7);
+}
